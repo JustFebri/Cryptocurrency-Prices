@@ -152,7 +152,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.label1.text = dataCD[indexPath.row].nama
             cell.label3.text = usd
             cell.label2.text = dataCD[indexPath.row].symbol.uppercased()
-            //pembulatan 2 angka dibelakang koma
             cell.label4.text = idr
         }
         return cell
